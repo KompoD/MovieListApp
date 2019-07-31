@@ -55,7 +55,8 @@ class MovieListController: UITableViewController {
             if let error = errorMessage {
                 self.hideLoadingView(false, errorText: error)
             } else {
-                self.groupedArray = Dictionary(grouping: films) { $0.year }.sorted(by: { $0.0 ?? 0 < $1.0 ?? 0})
+                let sortedFilms = films.sorted(by: { $0.rating ?? 0.0 > $1.rating ?? 0.0 })
+                self.groupedArray = Dictionary(grouping: sortedFilms) { $0.year }.sorted(by: { $0.0 ?? 0 < $1.0 ?? 0})
                 
                 self.hideLoadingView(true)
             }

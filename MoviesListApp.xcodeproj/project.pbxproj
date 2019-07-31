@@ -11,7 +11,6 @@
 		9A02EB2022EF564B00433710 /* MovieDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A02EB1F22EF564B00433710 /* MovieDetailController.swift */; };
 		9A02EB2222EF752000433710 /* FilmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A02EB2122EF752000433710 /* FilmCell.swift */; };
 		9A02EB2522EF756D00433710 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A02EB2422EF756D00433710 /* Enums.swift */; };
-		9A02EB2722EF94FB00433710 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A02EB2622EF94FB00433710 /* Helpers.swift */; };
 		9A3267C922E1B1FA0088DBA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3267C822E1B1FA0088DBA9 /* AppDelegate.swift */; };
 		9A3267CB22E1B1FA0088DBA9 /* MovieListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3267CA22E1B1FA0088DBA9 /* MovieListController.swift */; };
 		9A3267CE22E1B1FA0088DBA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3267CC22E1B1FA0088DBA9 /* Main.storyboard */; };
@@ -29,7 +28,6 @@
 		9A02EB1F22EF564B00433710 /* MovieDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailController.swift; sourceTree = "<group>"; };
 		9A02EB2122EF752000433710 /* FilmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCell.swift; sourceTree = "<group>"; };
 		9A02EB2422EF756D00433710 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
-		9A02EB2622EF94FB00433710 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		9A3267C522E1B1FA0088DBA9 /* MoviesListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3267C822E1B1FA0088DBA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A3267CA22E1B1FA0088DBA9 /* MovieListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListController.swift; sourceTree = "<group>"; };
@@ -78,7 +76,6 @@
 			children = (
 				9A3267DC22E1B3190088DBA9 /* Constants.swift */,
 				9A02EB2422EF756D00433710 /* Enums.swift */,
-				9A02EB2622EF94FB00433710 /* Helpers.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -254,7 +251,6 @@
 				9A3267CB22E1B1FA0088DBA9 /* MovieListController.swift in Sources */,
 				9A02EB2222EF752000433710 /* FilmCell.swift in Sources */,
 				9A02EB2022EF564B00433710 /* MovieDetailController.swift in Sources */,
-				9A02EB2722EF94FB00433710 /* Helpers.swift in Sources */,
 				9A3267DB22E1B2BB0088DBA9 /* APIService.swift in Sources */,
 				9A3267E022E1B3A70088DBA9 /* FilmModel.swift in Sources */,
 				9A3267C922E1B1FA0088DBA9 /* AppDelegate.swift in Sources */,

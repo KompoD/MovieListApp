@@ -34,7 +34,7 @@ class MovieDetailController: UIViewController {
             
             let range = (mainString as NSString).range(of: stringToColor)
             
-            let ratingColor = Helpers.getRatingColor(rating)
+            let ratingColor = RatingEnum.from(rating: rating).color
             
             let attributedRatingString = NSMutableAttributedString(string: mainString)
             attributedRatingString.addAttribute(.foregroundColor, value: ratingColor, range: range)

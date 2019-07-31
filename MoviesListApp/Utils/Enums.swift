@@ -13,6 +13,18 @@ enum RatingEnum {
     case good
     case bad
     
+    static func from(rating: Double?) -> RatingEnum {
+        guard let rating = rating else { return .bad }
+        
+        if rating >= 7.0 {
+            return .awesome
+        } else if rating >= 5.0 && rating < 7.0 {
+            return .good
+        } else {
+            return .bad
+        }
+    }
+    
     var color: UIColor {
         switch self {
         case .awesome:

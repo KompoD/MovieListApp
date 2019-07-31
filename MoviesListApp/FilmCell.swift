@@ -17,6 +17,6 @@ class FilmCell: UITableViewCell {
         localizedNameLabel.text = film.localizedName ?? "Нет названия"
         originalNameLabel.text = film.name ?? "No name"
         ratingLabel.text = "\(film.rating ?? 0.0)"
-        ratingLabel.textColor = Helpers.getRatingColor(film.rating)
+        ratingLabel.textColor = RatingEnum.from(rating: film.rating).color
     }
 }
